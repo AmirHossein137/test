@@ -45,7 +45,7 @@ const Filters = () => {
             className="select select-bordered w-full max-w-md bg-white text-slate-950"
           >
             <option value="" selected>
-              Select Category
+              All 
             </option>
             {categoryList.map((item, index) => (
               <option key={index} value={item}>

@@ -25,7 +25,7 @@ const ProductList = () => {
               <span>{product.selected}</span>
               <span>{product.quantity}</span>
               <button
-                className="btn btn-error btn-sm"
+                className="btn btn-error btn-sm text-white"
                 onClick={() => handleProductDelete(product.name)}
               >
                 Delete
