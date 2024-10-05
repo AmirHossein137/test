@@ -9,12 +9,10 @@ function App() {
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-6">
             <AddCategory />
+            <AddProduct />
           </div>
           <div className="col-span-6">
             <ProdcutList />
-          </div>
-          <div className="col-span-6">
-            <AddProduct />
           </div>
         </div>
       </div>

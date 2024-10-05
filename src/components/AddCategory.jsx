@@ -26,7 +26,7 @@ const AddCategory = () => {
   };
 
   return (
-    <>
+    <div className="mb-7">
       <button
         className="btn btn-active btn-primary text-white"
         onClick={() => setShow(true)}
@@ -85,7 +85,7 @@ const AddCategory = () => {
           </form>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
